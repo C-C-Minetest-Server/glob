@@ -1,4 +1,4 @@
-# `rm -rf .*`
+# `rm -rf *`
 ... Did you do something like this in your *nix terminal? This mod prings the same function to Minetest!
 
 ## Chatcommands

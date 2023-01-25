@@ -2,7 +2,10 @@
 ### `glob.compile(globptn)`
 * `globptn`: Glob pattern to be converted into Lua pattern
 
-Convert a glob pattern into Lua pattern.
+Convert a glob pattern into Lua pattern. Currently the following syntax are supported:
+* `*`: Match any combination (zero or more) of any charactors
+* `?`: Match exactly one any charactor
+* `[abc]`, `[A-Za-z]`: Match one of the charactors listed inside, or in the range specified.
 
 ### `glob.match_in_list(list,globptn)`
 * `list`: List of values to be matched
